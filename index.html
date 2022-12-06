@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Firebase - Tutorial</h1>
+</body>
+
+<!-- Cloud Firestore para Web -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<!-- Autenticação para Web -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+
+<!-- Adicionar o SDK do Firebase usando a tag <script> -->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBtYFY3J0kZ7aosytIUhj3taxF-vKIY7sY",
+      authDomain: "tutorial-firebase-rocker.firebaseapp.com",
+      projectId: "tutorial-firebase-rocker",
+      storageBucket: "tutorial-firebase-rocker.appspot.com",
+      messagingSenderId: "824273732178",
+      appId: "1:824273732178:web:e8011db6d4b4ed15c8158b"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+
+</html>
